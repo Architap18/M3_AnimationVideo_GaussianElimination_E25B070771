@@ -176,10 +176,3 @@ python3 generate_storyboard_pdf.py
 - [x] **Subtitles:** Standard SRT file synchronized with all 60 narration entries.
 - [x] **Academic Documentation:** References cited according to university standards.
 
----
-
-## 📜 Academic Attribution & AI Disclosures
-
-- **Academic Context:** Developed for college M3 Linear Algebra curriculum (Systems of Linear Equations, Matrix Theory, and Numerical Gaussian Elimination).
-- **AI-Assisted Production:** Motion graphics choreography, timing alignment, and UI design were assisted by DeepMind AI agent tools.
-- **Voice Narration:** Synthesized neural voiceover provided for educational accessibility.
