@@ -1,11 +1,5 @@
 # GAUSSIAN ELIMINATION – FUTURISTIC MATHEMATICS ANIMATION
 
-[![Linear Algebra M3](https://img.shields.io/badge/Course-M3%20Linear%20Algebra-orange.svg)](#)
-[![Manim Community](https://img.shields.io/badge/Rendered%20with-Manim%20CE%20v0.19.1-blue.svg)](https://www.manim.community/)
-[![Resolution](https://img.shields.io/badge/Resolution-1920%C3%971080%20(16%3A9)-green.svg)](#)
-[![Duration](https://img.shields.io/badge/Duration-05%3A42%20(Under%207m)-brightgreen.svg)](#)
-[![Python](https://img.shields.io/badge/Python-3.10%2B-yellow.svg)](#)
-
 A complete, high-production 5-minute educational animated video explaining **Gaussian Elimination** from absolute zero for college **M3 Linear Algebra** internal assessment.
 
 The video visualizes systems of linear equations, augmented matrices, elementary row operations, and 3D geometric intuition styled as a **premium futuristic AI intelligence dashboard**.
