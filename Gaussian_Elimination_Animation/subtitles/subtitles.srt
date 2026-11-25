@@ -1,0 +1,239 @@
+1
+00:00:00,000 --> 00:00:03,500
+Welcome to the linear algebra intelligence console.
+
+2
+00:00:03,500 --> 00:00:08,500
+Today, we explore Gaussian Elimination, a foundational algorithm of mathematics.
+
+3
+00:00:08,500 --> 00:00:14,000
+Let us begin from absolute zero, with a simple everyday situation.
+
+4
+00:00:14,000 --> 00:00:20,500
+Imagine you visit a store. One notebook and one pen cost thirty rupees.
+
+5
+00:00:20,500 --> 00:00:24,500
+Two notebooks and one pen cost fifty rupees.
+
+6
+00:00:24,500 --> 00:00:29,000
+Can we find the exact price of each item?
+
+7
+00:00:29,000 --> 00:00:33,000
+Values we do not know are called unknowns.
+
+8
+00:00:33,000 --> 00:00:39,000
+When we state a mathematical relationship between them, we create an equation.
+
+9
+00:00:39,000 --> 00:00:44,000
+Notice: adding one notebook increased the price by twenty rupees.
+
+10
+00:00:44,000 --> 00:00:50,000
+So, one notebook is twenty rupees, and one pen is ten rupees!
+
+11
+00:00:50,000 --> 00:00:53,500
+When systems involve multiple unknowns, guessing fails.
+
+12
+00:00:53,500 --> 00:00:57,000
+We need a systematic method: Gaussian Elimination.
+
+13
+00:00:57,000 --> 00:01:02,881
+Now consider three unknowns: x, y, and z, across three linear equations.
+
+14
+00:01:02,881 --> 00:01:08,762
+An equation is linear when every variable is to the first power.
+
+15
+00:01:08,762 --> 00:01:15,624
+The variables are x, y, and z, and the numbers scaling them are coefficients.
+
+16
+00:01:15,624 --> 00:01:20,035
+Instead of writing variables repeatedly, mathematicians extract the numbers...
+
+17
+00:01:20,035 --> 00:01:24,446
+...into a clean numerical grid called an augmented matrix.
+
+18
+00:01:24,446 --> 00:01:29,837
+The left side holds variable coefficients; the right column holds constants.
+
+19
+00:01:29,837 --> 00:01:32,288
+So what is Gaussian Elimination?
+
+20
+00:01:32,288 --> 00:01:39,639
+It is a method of simplifying equations step by step until solving them is effortless.
+
+21
+00:01:39,639 --> 00:01:46,011
+We use a pivot element—the leading non-zero number in a row, in orange.
+
+22
+00:01:46,011 --> 00:01:49,442
+We simplify using three elementary row operations:
+
+23
+00:01:49,442 --> 00:01:51,402
+First: Interchanging two rows.
+
+24
+00:01:51,402 --> 00:01:55,323
+Second: Multiplying a row by a non-zero number.
+
+25
+00:01:55,323 --> 00:02:01,204
+And third: Adding or subtracting a multiple of one row from another.
+
+26
+00:02:01,204 --> 00:02:05,615
+Crucially, these operations never change the system's true solution.
+
+27
+00:02:05,615 --> 00:02:10,564
+Before calculating, let us visualize the geometry in three-dimensional space.
+
+28
+00:02:10,564 --> 00:02:16,996
+Each linear equation with three variables defines a flat plane in 3D space.
+
+29
+00:02:16,996 --> 00:02:20,955
+Two non-parallel planes intersect along a single line.
+
+30
+00:02:20,955 --> 00:02:27,883
+When a third independent plane slices through, all three meet at a single point.
+
+31
+00:02:27,883 --> 00:02:33,326
+This intersection point, marked in bright orange, is our unique solution.
+
+32
+00:02:33,326 --> 00:02:39,264
+Gaussian Elimination is simply the algebraic way to find this exact point.
+
+33
+00:02:39,264 --> 00:02:43,830
+Let us solve our three-by-three system step by step.
+
+34
+00:02:43,830 --> 00:02:56,514
+The equations are: x + y + z = 6, 2x - y + z = 3, and x + 2y - z = 2.
+
+35
+00:02:56,514 --> 00:03:02,095
+Step 1: We construct the augmented matrix from coefficients and constants.
+
+36
+00:03:02,095 --> 00:03:09,198
+Step 2: We choose the top-left element, 1, as our first pivot, in orange.
+
+37
+00:03:09,198 --> 00:03:14,779
+To clear the column below it, we perform two row operations:
+
+38
+00:03:14,779 --> 00:03:22,897
+Row 2 becomes Row 2 minus two times Row 1, giving: 0, -3, -1, and -9.
+
+39
+00:03:22,897 --> 00:03:30,000
+Row 3 becomes Row 3 minus Row 1, giving: 0, 1, -2, and -4.
+
+40
+00:03:30,000 --> 00:03:38,118
+Step 3: To make calculations easy and avoid fractions, we swap Row 2 and Row 3.
+
+41
+00:03:38,118 --> 00:03:43,699
+Now our second pivot in Row 2 is a clean one.
+
+42
+00:03:43,699 --> 00:03:52,324
+Step 4: We eliminate minus three below this pivot: Row 3 becomes Row 3 + 3*Row 2.
+
+43
+00:03:52,324 --> 00:03:57,905
+This gives: 0, 0, -7, and -21! Row Echelon Form reached!
+
+44
+00:03:57,905 --> 00:04:05,008
+Step 5: Back-substitution begins. From Row 3, -7z = -21, so z = 3!
+
+45
+00:04:05,008 --> 00:04:14,141
+Step 6: In Row 2, y - 2z = -4. Substituting z = 3 gives y = 2!
+
+46
+00:04:14,141 --> 00:04:24,288
+Step 7: In Row 1, x + y + z = 6. Substituting y and z gives x = 1!
+
+47
+00:04:24,288 --> 00:04:31,391
+Our complete solution is: x = 1, y = 2, and z = 3.
+
+48
+00:04:31,391 --> 00:04:33,806
+Always verify your solution.
+
+49
+00:04:33,806 --> 00:04:43,462
+Substitute x = 1, y = 2, and z = 3 into all three original equations.
+
+50
+00:04:43,462 --> 00:04:49,497
+Equation 1: 1 + 2 + 3 = 6. Correct!
+
+51
+00:04:49,497 --> 00:04:55,533
+Equation 2: 2(1) - 2 + 3 = 3. Correct!
+
+52
+00:04:55,533 --> 00:05:01,568
+Equation 3: 1 + 2(2) - 3 = 2. Correct!
+
+53
+00:05:01,568 --> 00:05:05,189
+All three equations are satisfied simultaneously.
+
+54
+00:05:05,189 --> 00:05:12,432
+Geometrically, this confirms that our three planes intersect at (1, 2, 3).
+
+55
+00:05:12,432 --> 00:05:15,387
+Here are the three key takeaways:
+
+56
+00:05:15,387 --> 00:05:19,329
+First: Represent the system as an augmented matrix.
+
+57
+00:05:19,329 --> 00:05:24,255
+Second: Apply elementary row operations to achieve Row Echelon Form.
+
+58
+00:05:24,255 --> 00:05:30,167
+Third: Use back-substitution to solve for each variable from bottom to top.
+
+59
+00:05:30,167 --> 00:05:35,094
+You have mastered Gaussian Elimination: understanding mathematics step by step.
+
+60
+00:05:35,094 --> 00:05:39,528
+Thank you for watching this M3 Linear Algebra presentation.

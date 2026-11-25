@@ -1,0 +1,6 @@
+file '/Users/architapal18/mathsvd/Gaussian_Elimination_Animation/media/videos/scene1_hook/1080p30/Scene1Hook.mp4'
+file '/Users/architapal18/mathsvd/Gaussian_Elimination_Animation/media/videos/scene2_basics/1080p30/Scene2Basics.mp4'
+file '/Users/architapal18/mathsvd/Gaussian_Elimination_Animation/media/videos/scene3_geometry/1080p30/Scene3Geometry.mp4'
+file '/Users/architapal18/mathsvd/Gaussian_Elimination_Animation/media/videos/scene4_solution/1080p30/Scene4Solution.mp4'
+file '/Users/architapal18/mathsvd/Gaussian_Elimination_Animation/media/videos/scene5_verification/1080p30/Scene5Verification.mp4'
+file '/Users/architapal18/mathsvd/Gaussian_Elimination_Animation/media/videos/scene6_summary/1080p30/Scene6Summary.mp4'
